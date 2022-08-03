@@ -1,0 +1,14 @@
+{
+    "parameters":{
+        "encodeddxs_dir": "/home/jongwook95.lee/study/dignosis_analysis/data/ArtificialEHR_Data.encodedDxs",
+        "epochs": 100,
+        "batch_size": 32,
+        "train_size": 0.9,
+        "diagnosis_size": 512,
+        "learning_rate": 1,
+        "L2_decay": 1e-8,
+        "topk": 30,
+        "best_metric": "f1",
+        "save_best_model": "/home/jongwook95.lee/study/dignosis_analysis/retain/best_model"
+        }
+}
